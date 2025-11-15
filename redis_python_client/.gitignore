@@ -1,0 +1,80 @@
+# =========================================
+# PYTHON
+# =========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+
+# Settings
+*.env
+.env.*
+*.ini
+
+# =========================================
+# PYTEST / COVERAGE
+# =========================================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# =========================================
+# FASTAPI / UVICORN
+# =========================================
+/.mypy_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# =========================================
+# EDITOR CONFIG
+# =========================================
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# =========================================
+# DOCKER
+# =========================================
+# Ignore Docker build artifacts
+docker-compose.override.yml
+docker-data/
+*.pid
+
+# =========================================
+# OTHER
+# =========================================
+tmp/
+temp/
+.cache/
+.cache/*
+.DS_Store
+Thumbs.db

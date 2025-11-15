@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "redis-client-alessandro"
+version = "0.0.1"
+description = "Small Redis client wrapper for examples and portfolio"
+requires-python = ">=3.10"
+
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
